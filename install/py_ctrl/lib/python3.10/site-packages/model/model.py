@@ -92,25 +92,28 @@ def the_model() -> Model:
         effects = (),
         to_run = Transition.default()
     )
-    ops[f"op_pick_green_cube"] = Operation(
-        name = f"op_pick_green_cube",
+    for x in ["green","red","blue"]:
+        ops[f"op_pick_{x}_cube"] = Operation(
+        name = f"op_pick_{x}_cube",
         precondition = Transition("pre", 
-            g(f"(robot_pose == green_cube_at) && !gripper_run && green_cube_at"), 
-            a(f"robot_command = pick, robot_tcp_frame = r1_svt_tcp, robot_run")),
+            g(f"(robot_pose == {x}_cube_at) && !gripper_run && {x}_cube_at"), 
+            a(f"gripper_command = pick_{x}, robot_tcp_frame = r1_svt_tcp, robot_run")),
         postcondition = Transition("post", 
             g(f"robot_state == done"), 
-            a(f"!robot_run, gripper_run, !green_cube_at_pose_1")),
+            a(f"!robot_run, gripper_run, {x}_cube_at <-gripper")),
         effects = (),
         to_run = Transition.default()
     )
-    ops[f"drop_pose_1"] = Operation(
-        name = f"drop_pose_1",
+
+    
+    ops[f"op_drop_green_cube"] = Operation(
+        name = f"op_drop_green_cube",
         precondition = Transition("pre", 
-            g(f"!robot_run && robot_state == initial && (robot_pose == pose_1) && gripper_run && !cube_at_pose_1"), 
+            g(f"!robot_run && robot_state == initial && (robot_pose == pose_1) && gripper_run"), 
             a(f"robot_command = drop, robot_tcp_frame = r1_svt_tcp, robot_run")),
         postcondition = Transition("post", 
             g(f"robot_state == done"), 
-            a(f"!robot_run, gripper_run, cube_at_pose_1")),
+            a(f"!robot_run, gripper_run, cube_at_po")),
         effects = (),
         to_run = Transition.default()
     )

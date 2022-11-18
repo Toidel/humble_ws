@@ -1,0 +1,414 @@
+[1.236s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.236s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f95b4cd9c90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f95b569e380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f95b569e380>>)
+[1.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.343s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/humble_ws'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extensions ['ignore', 'ignore_ament_install']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'ignore'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'ignore_ament_install'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extensions ['colcon_pkg']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'colcon_pkg'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extensions ['colcon_meta']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'colcon_meta'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extensions ['ros']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'ros'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extensions ['cmake', 'python']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'cmake'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'python'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extensions ['python_setup_py']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18) by extension 'python_setup_py'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extension 'ignore'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extension 'ignore_ament_install'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extensions ['colcon_pkg']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extension 'colcon_pkg'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extensions ['colcon_meta']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extension 'colcon_meta'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extensions ['ros']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/bringup) by extension 'ros'
+[1.375s] DEBUG:colcon.colcon_core.package_identification:Package 'een150-2022-a4-group-group18/bringup' with type 'ros.ament_cmake' and name 'een150_a4_bringup'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extensions ['ignore', 'ignore_ament_install']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'ignore'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'ignore_ament_install'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extensions ['colcon_pkg']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'colcon_pkg'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extensions ['colcon_meta']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'colcon_meta'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extensions ['ros']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'ros'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extensions ['cmake', 'python']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'cmake'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'python'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extensions ['python_setup_py']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario) by extension 'python_setup_py'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'ignore'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'ignore_ament_install'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extensions ['colcon_pkg']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'colcon_pkg'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extensions ['colcon_meta']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'colcon_meta'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extensions ['ros']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'ros'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extensions ['cmake', 'python']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'cmake'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'python'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extensions ['python_setup_py']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/config) by extension 'python_setup_py'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extensions ['ignore', 'ignore_ament_install']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'ignore'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'ignore_ament_install'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extensions ['colcon_pkg']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'colcon_pkg'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extensions ['colcon_meta']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'colcon_meta'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extensions ['ros']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'ros'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extensions ['cmake', 'python']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'cmake'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'python'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extensions ['python_setup_py']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames) by extension 'python_setup_py'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extensions ['ignore', 'ignore_ament_install']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'ignore'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'ignore_ament_install'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extensions ['colcon_pkg']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'colcon_pkg'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extensions ['colcon_meta']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'colcon_meta'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extensions ['ros']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'ros'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extensions ['cmake', 'python']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'cmake'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'python'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extensions ['python_setup_py']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/frames2) by extension 'python_setup_py'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'ignore'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'ignore_ament_install'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extensions ['colcon_pkg']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'colcon_pkg'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'colcon_meta'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extensions ['ros']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'ros'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extensions ['cmake', 'python']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'cmake'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'python'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extensions ['python_setup_py']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/scenario/meshes) by extension 'python_setup_py'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extensions ['ignore', 'ignore_ament_install']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'ignore'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'ignore_ament_install'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extensions ['colcon_pkg']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'colcon_pkg'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extensions ['colcon_meta']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'colcon_meta'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extensions ['ros']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'ros'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extensions ['cmake', 'python']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'cmake'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'python'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extensions ['python_setup_py']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src) by extension 'python_setup_py'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extension 'ignore'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extension 'ignore_ament_install'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extensions ['colcon_pkg']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extension 'colcon_pkg'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extensions ['colcon_meta']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extension 'colcon_meta'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extensions ['ros']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/py_ctrl) by extension 'ros'
+[1.388s] DEBUG:colcon.colcon_core.package_identification:Package 'een150-2022-a4-group-group18/src/py_ctrl' with type 'ros.ament_python' and name 'py_ctrl'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extensions ['ignore', 'ignore_ament_install']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extension 'ignore'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extension 'ignore_ament_install'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extensions ['colcon_pkg']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extension 'colcon_pkg'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extensions ['colcon_meta']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extension 'colcon_meta'
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extensions ['ros']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/src/spiral) by extension 'ros'
+[1.391s] DEBUG:colcon.colcon_core.package_identification:Package 'een150-2022-a4-group-group18/src/spiral' with type 'ros.ament_python' and name 'spiral'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extensions ['ignore', 'ignore_ament_install']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extension 'ignore'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extension 'ignore_ament_install'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extensions ['colcon_pkg']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extension 'colcon_pkg'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extensions ['colcon_meta']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extension 'colcon_meta'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extensions ['ros']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(een150-2022-a4-group-group18/xacro_2.0.7.) by extension 'ros'
+[1.395s] DEBUG:colcon.colcon_core.package_identification:Package 'een150-2022-a4-group-group18/xacro_2.0.7.' with type 'ros.ament_cmake' and name 'xacro'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.475s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'een150-2022-a4-group-group18/xacro_2.0.7.' from colcon.pkg: {'hooks': ['share/xacro/environment/completion.bash']}
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/student/humble_ws/install
+[1.548s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/student/requirements_ws/install
+[1.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[1.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.809s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'xacro' is in: /home/student/humble_ws/install/xacro
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding xacro
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.812s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'cmake_args' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'cmake_target' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.813s] Level 5:colcon.colcon_core.verb:set package 'een150_a4_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.813s] DEBUG:colcon.colcon_core.verb:Building package 'een150_a4_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/humble_ws/build/een150_a4_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/humble_ws/install/een150_a4_bringup', 'merge_install': False, 'path': '/home/student/humble_ws/een150-2022-a4-group-group18/bringup', 'symlink_install': False, 'test_result_base': None}
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'cmake_args' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'cmake_target' from command line to 'None'
+[1.815s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'py_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.816s] DEBUG:colcon.colcon_core.verb:Building package 'py_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/humble_ws/build/py_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/humble_ws/install/py_ctrl', 'merge_install': False, 'path': '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl', 'symlink_install': False, 'test_result_base': None}
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'cmake_args' from command line to 'None'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'cmake_target' from command line to 'None'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'cmake_clean_cache' from command line to 'False'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'cmake_clean_first' from command line to 'False'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'cmake_force_configure' from command line to 'False'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'ament_cmake_args' from command line to 'None'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'catkin_cmake_args' from command line to 'None'
+[1.819s] Level 5:colcon.colcon_core.verb:set package 'spiral' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.819s] DEBUG:colcon.colcon_core.verb:Building package 'spiral' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/humble_ws/build/spiral', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/humble_ws/install/spiral', 'merge_install': False, 'path': '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral', 'symlink_install': False, 'test_result_base': None}
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_args' from command line to 'None'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target' from command line to 'None'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_cache' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_first' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_force_configure' from command line to 'False'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'ament_cmake_args' from command line to 'None'
+[1.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_cmake_args' from command line to 'None'
+[1.823s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.823s] DEBUG:colcon.colcon_core.verb:Building package 'xacro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/humble_ws/build/xacro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/humble_ws/install/xacro', 'merge_install': False, 'path': '/home/student/humble_ws/een150-2022-a4-group-group18/xacro_2.0.7.', 'symlink_install': False, 'test_result_base': None}
+[1.824s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.840s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/humble_ws/een150-2022-a4-group-group18/bringup' with build type 'ament_cmake'
+[1.849s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/humble_ws/een150-2022-a4-group-group18/bringup'
+[1.883s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.905s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl' with build type 'ament_python'
+[1.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_ctrl', 'ament_prefix_path')
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/hook/ament_prefix_path.ps1'
+[1.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/hook/ament_prefix_path.dsv'
+[1.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/hook/ament_prefix_path.sh'
+[1.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/humble_ws/build/een150_a4_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/een150_a4_bringup -- -j2 -l2
+[2.620s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl'
+[2.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/humble_ws/build/een150_a4_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/een150_a4_bringup -- -j2 -l2
+[2.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/humble_ws/build/een150_a4_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/een150_a4_bringup
+[2.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(een150_a4_bringup)
+[2.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/humble_ws/build/een150_a4_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/een150_a4_bringup
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup' for CMake module files
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup' for CMake config files
+[2.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('een150_a4_bringup', 'cmake_prefix_path')
+[2.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/hook/cmake_prefix_path.ps1'
+[2.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/hook/cmake_prefix_path.dsv'
+[2.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/hook/cmake_prefix_path.sh'
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/bin'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/lib/pkgconfig/een150_a4_bringup.pc'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/lib/python3.10/site-packages'
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/bin'
+[2.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.ps1'
+[2.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.dsv'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.sh'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.bash'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.zsh'
+[2.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/humble_ws/install/een150_a4_bringup/share/colcon-core/packages/een150_a4_bringup)
+[3.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(een150_a4_bringup)
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup' for CMake module files
+[3.087s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup' for CMake config files
+[3.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('een150_a4_bringup', 'cmake_prefix_path')
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/hook/cmake_prefix_path.ps1'
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/hook/cmake_prefix_path.dsv'
+[3.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/hook/cmake_prefix_path.sh'
+[3.108s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/bin'
+[3.108s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/lib/pkgconfig/een150_a4_bringup.pc'
+[3.108s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/lib/python3.10/site-packages'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/een150_a4_bringup/bin'
+[3.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.ps1'
+[3.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.dsv'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.sh'
+[3.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.bash'
+[3.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.zsh'
+[3.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/humble_ws/install/een150_a4_bringup/share/colcon-core/packages/een150_a4_bringup)
+[3.135s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral' with build type 'ament_python'
+[3.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('spiral', 'ament_prefix_path')
+[3.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/spiral/share/spiral/hook/ament_prefix_path.ps1'
+[3.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/spiral/share/spiral/hook/ament_prefix_path.dsv'
+[3.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/spiral/share/spiral/hook/ament_prefix_path.sh'
+[3.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.834s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral'
+[3.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.838s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl': PYTHONPATH=/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_ctrl build --build-base /home/student/humble_ws/build/py_ctrl/build install --prefix /home/student/humble_ws/install/py_ctrl --record /home/student/humble_ws/build/py_ctrl/install.log --single-version-externally-managed
+[5.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl' returned '0': PYTHONPATH=/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_ctrl build --build-base /home/student/humble_ws/build/py_ctrl/build install --prefix /home/student/humble_ws/install/py_ctrl --record /home/student/humble_ws/build/py_ctrl/install.log --single-version-externally-managed
+[5.094s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/py_ctrl' for CMake module files
+[5.095s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/py_ctrl' for CMake config files
+[5.096s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/py_ctrl/lib'
+[5.097s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/py_ctrl/bin'
+[5.097s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/py_ctrl/lib/pkgconfig/py_ctrl.pc'
+[5.097s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages'
+[5.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_ctrl', 'pythonpath')
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/hook/pythonpath.ps1'
+[5.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/hook/pythonpath.dsv'
+[5.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/hook/pythonpath.sh'
+[5.126s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/py_ctrl/bin'
+[5.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_ctrl)
+[5.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/package.ps1'
+[5.155s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/package.dsv'
+[5.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/package.sh'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/package.bash'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/py_ctrl/share/py_ctrl/package.zsh'
+[5.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/humble_ws/install/py_ctrl/share/colcon-core/packages/py_ctrl)
+[5.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/humble_ws/een150-2022-a4-group-group18/xacro_2.0.7.' with build type 'ament_cmake'
+[5.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/humble_ws/een150-2022-a4-group-group18/xacro_2.0.7.'
+[5.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/humble_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/xacro -- -j2 -l2
+[5.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral': PYTHONPATH=/home/student/humble_ws/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spiral build --build-base /home/student/humble_ws/build/spiral/build install --prefix /home/student/humble_ws/install/spiral --record /home/student/humble_ws/build/spiral/install.log --single-version-externally-managed
+[6.248s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/spiral' for CMake module files
+[6.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral' returned '0': PYTHONPATH=/home/student/humble_ws/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spiral build --build-base /home/student/humble_ws/build/spiral/build install --prefix /home/student/humble_ws/install/spiral --record /home/student/humble_ws/build/spiral/install.log --single-version-externally-managed
+[6.265s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/spiral' for CMake config files
+[6.266s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/spiral/lib'
+[6.266s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/spiral/bin'
+[6.266s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/spiral/lib/pkgconfig/spiral.pc'
+[6.267s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/spiral/lib/python3.10/site-packages'
+[6.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('spiral', 'pythonpath')
+[6.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/spiral/share/spiral/hook/pythonpath.ps1'
+[6.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/spiral/share/spiral/hook/pythonpath.dsv'
+[6.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/spiral/share/spiral/hook/pythonpath.sh'
+[6.281s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/spiral/bin'
+[6.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spiral)
+[6.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/spiral/share/spiral/package.ps1'
+[6.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/humble_ws/install/spiral/share/spiral/package.dsv'
+[6.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/spiral/share/spiral/package.sh'
+[6.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/spiral/share/spiral/package.bash'
+[6.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/spiral/share/spiral/package.zsh'
+[6.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/humble_ws/install/spiral/share/colcon-core/packages/spiral)
+[6.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/humble_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/xacro -- -j2 -l2
+[6.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/humble_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/xacro
+[6.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xacro)
+[6.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/humble_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/xacro
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro' for CMake module files
+[6.676s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro' for CMake config files
+[6.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'cmake_prefix_path')
+[6.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/cmake_prefix_path.ps1'
+[6.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/xacro/share/xacro/hook/cmake_prefix_path.dsv'
+[6.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/cmake_prefix_path.sh'
+[6.699s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/lib'
+[6.699s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/bin'
+[6.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'path')
+[6.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/path.ps1'
+[6.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/xacro/share/xacro/hook/path.dsv'
+[6.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/path.sh'
+[6.705s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/lib/pkgconfig/xacro.pc'
+[6.706s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/lib/python3.10/site-packages'
+[6.706s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/bin'
+[6.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonscriptspath')
+[6.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/pythonscriptspath.ps1'
+[6.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/xacro/share/xacro/hook/pythonscriptspath.dsv'
+[6.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/pythonscriptspath.sh'
+[6.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.ps1'
+[6.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/humble_ws/install/xacro/share/xacro/package.dsv'
+[6.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.sh'
+[6.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.bash'
+[6.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.zsh'
+[6.737s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/humble_ws/install/xacro/share/colcon-core/packages/xacro)
+[6.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xacro)
+[6.808s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro' for CMake module files
+[6.809s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro' for CMake config files
+[6.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'cmake_prefix_path')
+[6.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/cmake_prefix_path.ps1'
+[6.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/xacro/share/xacro/hook/cmake_prefix_path.dsv'
+[6.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/cmake_prefix_path.sh'
+[6.815s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/lib'
+[6.816s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/bin'
+[6.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'path')
+[6.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/path.ps1'
+[6.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/xacro/share/xacro/hook/path.dsv'
+[6.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/path.sh'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/lib/pkgconfig/xacro.pc'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/lib/python3.10/site-packages'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/student/humble_ws/install/xacro/bin'
+[6.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonscriptspath')
+[6.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/pythonscriptspath.ps1'
+[6.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/humble_ws/install/xacro/share/xacro/hook/pythonscriptspath.dsv'
+[6.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/humble_ws/install/xacro/share/xacro/hook/pythonscriptspath.sh'
+[6.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.ps1'
+[6.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/humble_ws/install/xacro/share/xacro/package.dsv'
+[6.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.sh'
+[6.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.bash'
+[6.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/humble_ws/install/xacro/share/xacro/package.zsh'
+[6.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/humble_ws/install/xacro/share/colcon-core/packages/xacro)
+[6.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.866s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.948s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.239s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/humble_ws/install/local_setup.ps1'
+[7.254s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/humble_ws/install/_local_setup_util_ps1.py'
+[7.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/humble_ws/install/setup.ps1'
+[7.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/humble_ws/install/local_setup.sh'
+[7.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/humble_ws/install/_local_setup_util_sh.py'
+[7.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/humble_ws/install/setup.sh'
+[7.280s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/humble_ws/install/local_setup.bash'
+[7.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/humble_ws/install/setup.bash'
+[7.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/humble_ws/install/local_setup.zsh'
+[7.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/humble_ws/install/setup.zsh'
