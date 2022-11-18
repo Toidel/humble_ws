@@ -1,0 +1,24 @@
+[2.232s] Invoking command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl': PYTHONPATH=/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_ctrl build --build-base /home/student/humble_ws/build/py_ctrl/build install --prefix /home/student/humble_ws/install/py_ctrl --record /home/student/humble_ws/build/py_ctrl/install.log --single-version-externally-managed
+[3.158s] running egg_info
+[3.166s] writing ../../../build/py_ctrl/py_ctrl.egg-info/PKG-INFO
+[3.167s] writing dependency_links to ../../../build/py_ctrl/py_ctrl.egg-info/dependency_links.txt
+[3.168s] writing entry points to ../../../build/py_ctrl/py_ctrl.egg-info/entry_points.txt
+[3.173s] writing requirements to ../../../build/py_ctrl/py_ctrl.egg-info/requires.txt
+[3.173s] writing top-level names to ../../../build/py_ctrl/py_ctrl.egg-info/top_level.txt
+[3.198s] reading manifest file '../../../build/py_ctrl/py_ctrl.egg-info/SOURCES.txt'
+[3.209s] writing manifest file '../../../build/py_ctrl/py_ctrl.egg-info/SOURCES.txt'
+[3.211s] running build
+[3.212s] running build_py
+[3.230s] running install
+[3.233s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.233s]   warnings.warn(
+[3.234s] running install_lib
+[3.265s] running install_data
+[3.266s] running install_egg_info
+[3.290s] removing '/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/py_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[3.300s] Copying ../../../build/py_ctrl/py_ctrl.egg-info to /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/py_ctrl-0.0.0-py3.10.egg-info
+[3.311s] running install_scripts
+[3.386s] Installing go script to /home/student/humble_ws/install/py_ctrl/lib/py_ctrl
+[3.387s] Installing go2 script to /home/student/humble_ws/install/py_ctrl/lib/py_ctrl
+[3.389s] writing list of installed files to '/home/student/humble_ws/build/py_ctrl/install.log'
+[3.648s] Invoked command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl' returned '0': PYTHONPATH=/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_ctrl build --build-base /home/student/humble_ws/build/py_ctrl/build install --prefix /home/student/humble_ws/install/py_ctrl --record /home/student/humble_ws/build/py_ctrl/install.log --single-version-externally-managed

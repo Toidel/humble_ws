@@ -1,0 +1,46 @@
+[0.020s] Invoking command in '/home/student/humble_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/xacro -- -j2 -l2
+[0.424s] Built target ament_cmake_python_copy_xacro
+[2.232s] running egg_info
+[2.232s] writing xacro.egg-info/PKG-INFO
+[2.232s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[2.232s] writing top-level names to xacro.egg-info/top_level.txt
+[2.232s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[2.256s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[2.306s] Built target ament_cmake_python_build_xacro_egg
+[2.349s] Invoked command in '/home/student/humble_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/xacro -- -j2 -l2
+[2.420s] Invoking command in '/home/student/humble_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/xacro
+[2.438s] -- Install configuration: ""
+[2.439s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/environment/completion.bash
+[2.439s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/environment/pythonpath.sh
+[2.439s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/environment/pythonpath.dsv
+[2.440s] -- Up-to-date: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro-2.0.7-py3.10.egg-info
+[2.440s] -- Installing: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro-2.0.7-py3.10.egg-info/SOURCES.txt
+[2.440s] -- Installing: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro-2.0.7-py3.10.egg-info/top_level.txt
+[2.441s] -- Installing: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro-2.0.7-py3.10.egg-info/dependency_links.txt
+[2.441s] -- Installing: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro-2.0.7-py3.10.egg-info/PKG-INFO
+[2.442s] -- Up-to-date: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro
+[2.442s] -- Up-to-date: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro/substitution_args.py
+[2.443s] -- Up-to-date: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro/cli.py
+[2.443s] -- Up-to-date: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro/xmlutils.py
+[2.443s] -- Up-to-date: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro/__init__.py
+[2.444s] -- Up-to-date: /home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro/color.py
+[2.602s] Listing '/home/student/humble_ws/install/xacro/local/lib/python3.10/dist-packages/xacro'...
+[2.608s] -- Up-to-date: /home/student/humble_ws/install/xacro/bin/xacro
+[2.609s] -- Up-to-date: /home/student/humble_ws/install/xacro/lib/xacro/xacro
+[2.610s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/ament_index/resource_index/package_run_dependencies/xacro
+[2.610s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/ament_index/resource_index/parent_prefix_path/xacro
+[2.610s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/environment/ament_prefix_path.sh
+[2.616s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/environment/ament_prefix_path.dsv
+[2.616s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/environment/path.sh
+[2.617s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/environment/path.dsv
+[2.617s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/local_setup.bash
+[2.617s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/local_setup.sh
+[2.618s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/local_setup.zsh
+[2.618s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/local_setup.dsv
+[2.618s] -- Installing: /home/student/humble_ws/install/xacro/share/xacro/package.dsv
+[2.619s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/ament_index/resource_index/packages/xacro
+[2.620s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/cmake/xacro-extras.cmake
+[2.620s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/cmake/xacroConfig.cmake
+[2.620s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/cmake/xacroConfig-version.cmake
+[2.620s] -- Up-to-date: /home/student/humble_ws/install/xacro/share/xacro/package.xml
+[2.646s] Invoked command in '/home/student/humble_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/humble_ws/install/spiral:/home/student/humble_ws/install/py_ctrl:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/xacro

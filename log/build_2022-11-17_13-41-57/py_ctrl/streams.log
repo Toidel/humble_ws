@@ -1,0 +1,135 @@
+[3.177s] Invoking command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl': PYTHONPATH=/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_ctrl build --build-base /home/student/humble_ws/build/py_ctrl/build install --prefix /home/student/humble_ws/install/py_ctrl --record /home/student/humble_ws/build/py_ctrl/install.log --single-version-externally-managed
+[4.028s] running egg_info
+[4.028s] creating ../../../build/py_ctrl/py_ctrl.egg-info
+[4.028s] writing ../../../build/py_ctrl/py_ctrl.egg-info/PKG-INFO
+[4.029s] writing dependency_links to ../../../build/py_ctrl/py_ctrl.egg-info/dependency_links.txt
+[4.029s] writing entry points to ../../../build/py_ctrl/py_ctrl.egg-info/entry_points.txt
+[4.029s] writing requirements to ../../../build/py_ctrl/py_ctrl.egg-info/requires.txt
+[4.030s] writing top-level names to ../../../build/py_ctrl/py_ctrl.egg-info/top_level.txt
+[4.030s] writing manifest file '../../../build/py_ctrl/py_ctrl.egg-info/SOURCES.txt'
+[4.038s] reading manifest file '../../../build/py_ctrl/py_ctrl.egg-info/SOURCES.txt'
+[4.039s] writing manifest file '../../../build/py_ctrl/py_ctrl.egg-info/SOURCES.txt'
+[4.039s] running build
+[4.039s] running build_py
+[4.040s] creating /home/student/humble_ws/build/py_ctrl/build
+[4.040s] creating /home/student/humble_ws/build/py_ctrl/build/lib
+[4.041s] creating /home/student/humble_ws/build/py_ctrl/build/lib/runner
+[4.041s] copying runner/ctrl2.py -> /home/student/humble_ws/build/py_ctrl/build/lib/runner
+[4.041s] copying runner/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/runner
+[4.042s] copying runner/__main__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/runner
+[4.042s] copying runner/ctrl.py -> /home/student/humble_ws/build/py_ctrl/build/lib/runner
+[4.044s] creating /home/student/humble_ws/build/py_ctrl/build/lib/planner
+[4.044s] copying planner/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/planner
+[4.044s] copying planner/__main__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/planner
+[4.044s] copying planner/plan.py -> /home/student/humble_ws/build/py_ctrl/build/lib/planner
+[4.044s] creating /home/student/humble_ws/build/py_ctrl/build/lib/model
+[4.044s] copying model/model2.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model
+[4.044s] copying model/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model
+[4.045s] copying model/__main__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model
+[4.045s] copying model/operation.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model
+[4.045s] copying model/model.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model
+[4.045s] creating /home/student/humble_ws/build/py_ctrl/build/lib/predicates
+[4.045s] copying predicates/guards.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates
+[4.045s] copying predicates/errors.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates
+[4.045s] copying predicates/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates
+[4.045s] copying predicates/__main__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates
+[4.045s] copying predicates/actions.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates
+[4.045s] copying predicates/state.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates
+[4.045s] creating /home/student/humble_ws/build/py_ctrl/build/lib/runner/tests
+[4.045s] copying runner/tests/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/runner/tests
+[4.045s] creating /home/student/humble_ws/build/py_ctrl/build/lib/planner/tests
+[4.045s] copying planner/tests/test_planner.py -> /home/student/humble_ws/build/py_ctrl/build/lib/planner/tests
+[4.048s] copying planner/tests/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/planner/tests
+[4.049s] creating /home/student/humble_ws/build/py_ctrl/build/lib/model/tests
+[4.050s] copying model/tests/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model/tests
+[4.052s] copying model/tests/test_operation.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model/tests
+[4.054s] copying model/tests/test_model.py -> /home/student/humble_ws/build/py_ctrl/build/lib/model/tests
+[4.055s] creating /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests
+[4.055s] copying predicates/tests/test_states.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests
+[4.055s] copying predicates/tests/test_parser.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests
+[4.055s] copying predicates/tests/__init__.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests
+[4.055s] copying predicates/tests/test_guards.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests
+[4.055s] copying predicates/tests/test_actions.py -> /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests
+[4.055s] running install
+[4.055s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.055s]   warnings.warn(
+[4.055s] running install_lib
+[4.056s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner
+[4.056s] copying /home/student/humble_ws/build/py_ctrl/build/lib/runner/ctrl2.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner
+[4.056s] copying /home/student/humble_ws/build/py_ctrl/build/lib/runner/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner
+[4.056s] copying /home/student/humble_ws/build/py_ctrl/build/lib/runner/__main__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner
+[4.059s] copying /home/student/humble_ws/build/py_ctrl/build/lib/runner/ctrl.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner
+[4.060s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner/tests
+[4.061s] copying /home/student/humble_ws/build/py_ctrl/build/lib/runner/tests/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner/tests
+[4.067s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner
+[4.067s] copying /home/student/humble_ws/build/py_ctrl/build/lib/planner/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner
+[4.067s] copying /home/student/humble_ws/build/py_ctrl/build/lib/planner/__main__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner
+[4.068s] copying /home/student/humble_ws/build/py_ctrl/build/lib/planner/plan.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner
+[4.068s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/tests
+[4.068s] copying /home/student/humble_ws/build/py_ctrl/build/lib/planner/tests/test_planner.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/tests
+[4.068s] copying /home/student/humble_ws/build/py_ctrl/build/lib/planner/tests/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/tests
+[4.068s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model
+[4.068s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/model2.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model
+[4.068s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/__main__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/operation.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/model.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model
+[4.069s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/tests
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/tests/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/tests
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/tests/test_operation.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/tests
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/model/tests/test_model.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/tests
+[4.069s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/guards.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/errors.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/__main__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates
+[4.069s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/actions.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates
+[4.069s] creating /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests
+[4.070s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests/test_states.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests
+[4.070s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests/test_parser.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests
+[4.070s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests/__init__.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests
+[4.076s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests/test_guards.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests
+[4.077s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/tests/test_actions.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests
+[4.077s] copying /home/student/humble_ws/build/py_ctrl/build/lib/predicates/state.py -> /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates
+[4.077s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner/ctrl2.py to ctrl2.cpython-310.pyc
+[4.077s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner/__init__.py to __init__.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner/__main__.py to __main__.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner/ctrl.py to ctrl.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/runner/tests/__init__.py to __init__.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/__init__.py to __init__.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/__main__.py to __main__.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/plan.py to plan.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/tests/test_planner.py to test_planner.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/planner/tests/__init__.py to __init__.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/model2.py to model2.cpython-310.pyc
+[4.078s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/__init__.py to __init__.cpython-310.pyc
+[4.080s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/__main__.py to __main__.cpython-310.pyc
+[4.080s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/operation.py to operation.cpython-310.pyc
+[4.081s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/model.py to model.cpython-310.pyc
+[4.081s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/tests/__init__.py to __init__.cpython-310.pyc
+[4.081s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/tests/test_operation.py to test_operation.cpython-310.pyc
+[4.081s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/model/tests/test_model.py to test_model.cpython-310.pyc
+[4.081s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/guards.py to guards.cpython-310.pyc
+[4.093s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/errors.py to errors.cpython-310.pyc
+[4.093s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/__init__.py to __init__.cpython-310.pyc
+[4.093s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/__main__.py to __main__.cpython-310.pyc
+[4.093s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/actions.py to actions.cpython-310.pyc
+[4.093s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests/test_states.py to test_states.cpython-310.pyc
+[4.093s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests/test_parser.py to test_parser.cpython-310.pyc
+[4.098s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests/__init__.py to __init__.cpython-310.pyc
+[4.099s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests/test_guards.py to test_guards.cpython-310.pyc
+[4.100s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/tests/test_actions.py to test_actions.cpython-310.pyc
+[4.102s] byte-compiling /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/predicates/state.py to state.cpython-310.pyc
+[4.103s] running install_data
+[4.109s] creating /home/student/humble_ws/install/py_ctrl/share/ament_index
+[4.110s] creating /home/student/humble_ws/install/py_ctrl/share/ament_index/resource_index
+[4.110s] creating /home/student/humble_ws/install/py_ctrl/share/ament_index/resource_index/packages
+[4.110s] copying resource/py_ctrl -> /home/student/humble_ws/install/py_ctrl/share/ament_index/resource_index/packages
+[4.111s] copying package.xml -> /home/student/humble_ws/install/py_ctrl/share/py_ctrl
+[4.111s] running install_egg_info
+[4.113s] Copying ../../../build/py_ctrl/py_ctrl.egg-info to /home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages/py_ctrl-0.0.0-py3.10.egg-info
+[4.131s] running install_scripts
+[4.219s] Installing go script to /home/student/humble_ws/install/py_ctrl/lib/py_ctrl
+[4.228s] Installing go2 script to /home/student/humble_ws/install/py_ctrl/lib/py_ctrl
+[4.228s] writing list of installed files to '/home/student/humble_ws/build/py_ctrl/install.log'
+[4.446s] Invoked command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/py_ctrl' returned '0': PYTHONPATH=/home/student/humble_ws/install/py_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/py_ctrl build --build-base /home/student/humble_ws/build/py_ctrl/build install --prefix /home/student/humble_ws/install/py_ctrl --record /home/student/humble_ws/build/py_ctrl/install.log --single-version-externally-managed

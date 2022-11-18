@@ -1,0 +1,39 @@
+[2.345s] Invoking command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral': PYTHONPATH=/home/student/humble_ws/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spiral build --build-base /home/student/humble_ws/build/spiral/build install --prefix /home/student/humble_ws/install/spiral --record /home/student/humble_ws/build/spiral/install.log --single-version-externally-managed
+[3.317s] running egg_info
+[3.343s] creating ../../../build/spiral/spiral.egg-info
+[3.344s] writing ../../../build/spiral/spiral.egg-info/PKG-INFO
+[3.344s] writing dependency_links to ../../../build/spiral/spiral.egg-info/dependency_links.txt
+[3.344s] writing entry points to ../../../build/spiral/spiral.egg-info/entry_points.txt
+[3.344s] writing requirements to ../../../build/spiral/spiral.egg-info/requires.txt
+[3.344s] writing top-level names to ../../../build/spiral/spiral.egg-info/top_level.txt
+[3.344s] writing manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+[3.344s] reading manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+[3.344s] writing manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+[3.344s] running build
+[3.344s] running build_py
+[3.344s] creating /home/student/humble_ws/build/spiral/build
+[3.344s] creating /home/student/humble_ws/build/spiral/build/lib
+[3.344s] creating /home/student/humble_ws/build/spiral/build/lib/spiral
+[3.345s] copying spiral/spiral.py -> /home/student/humble_ws/build/spiral/build/lib/spiral
+[3.345s] copying spiral/__init__.py -> /home/student/humble_ws/build/spiral/build/lib/spiral
+[3.387s] running install
+[3.387s] running install_lib
+[3.387s] creating /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral
+[3.387s] copying /home/student/humble_ws/build/spiral/build/lib/spiral/spiral.py -> /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral
+[3.387s] copying /home/student/humble_ws/build/spiral/build/lib/spiral/__init__.py -> /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral
+[3.387s] byte-compiling /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral/spiral.py to spiral.cpython-310.pyc
+[3.387s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.388s]   warnings.warn(
+[3.388s] byte-compiling /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral/__init__.py to __init__.cpython-310.pyc
+[3.389s] running install_data
+[3.390s] creating /home/student/humble_ws/install/spiral/share/ament_index
+[3.390s] creating /home/student/humble_ws/install/spiral/share/ament_index/resource_index
+[3.407s] creating /home/student/humble_ws/install/spiral/share/ament_index/resource_index/packages
+[3.407s] copying resource/spiral -> /home/student/humble_ws/install/spiral/share/ament_index/resource_index/packages
+[3.407s] copying package.xml -> /home/student/humble_ws/install/spiral/share/spiral
+[3.407s] running install_egg_info
+[3.407s] Copying ../../../build/spiral/spiral.egg-info to /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info
+[3.419s] running install_scripts
+[3.499s] Installing spiral script to /home/student/humble_ws/install/spiral/lib/spiral
+[3.499s] writing list of installed files to '/home/student/humble_ws/build/spiral/install.log'
+[3.556s] Invoked command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral' returned '0': PYTHONPATH=/home/student/humble_ws/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spiral build --build-base /home/student/humble_ws/build/spiral/build install --prefix /home/student/humble_ws/install/spiral --record /home/student/humble_ws/build/spiral/install.log --single-version-externally-managed

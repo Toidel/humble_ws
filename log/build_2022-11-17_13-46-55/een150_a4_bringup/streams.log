@@ -1,0 +1,23 @@
+[0.140s] Invoking command in '/home/student/humble_ws/build/een150_a4_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/een150_a4_bringup -- -j2 -l2
+[1.278s] Invoked command in '/home/student/humble_ws/build/een150_a4_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --build /home/student/humble_ws/build/een150_a4_bringup -- -j2 -l2
+[1.392s] Invoking command in '/home/student/humble_ws/build/een150_a4_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/een150_a4_bringup
+[1.467s] -- Install configuration: ""
+[1.468s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/launch
+[1.469s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/launch/bringup.launch.py
+[1.469s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/launch/bringup2.launch.py
+[1.470s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/ament_index/resource_index/package_run_dependencies/een150_a4_bringup
+[1.470s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/ament_index/resource_index/parent_prefix_path/een150_a4_bringup
+[1.470s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/ament_prefix_path.sh
+[1.471s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/ament_prefix_path.dsv
+[1.471s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/path.sh
+[1.472s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/path.dsv
+[1.472s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.bash
+[1.472s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.sh
+[1.473s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.zsh
+[1.473s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.dsv
+[1.473s] -- Installing: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.dsv
+[1.477s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/ament_index/resource_index/packages/een150_a4_bringup
+[1.477s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/cmake/een150_a4_bringupConfig.cmake
+[1.477s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/cmake/een150_a4_bringupConfig-version.cmake
+[1.478s] -- Up-to-date: /home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.xml
+[1.486s] Invoked command in '/home/student/humble_ws/build/een150_a4_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/requirements_ws/install/scene_manipulation_marker:/home/student/requirements_ws/install/scene_manipulation_gui:/home/student/requirements_ws/install/gui_tools:/opt/ros/humble /usr/bin/cmake --install /home/student/humble_ws/build/een150_a4_bringup

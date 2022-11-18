@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/spiral/spiral.egg-info
+writing ../../../build/spiral/spiral.egg-info/PKG-INFO
+writing dependency_links to ../../../build/spiral/spiral.egg-info/dependency_links.txt
+writing entry points to ../../../build/spiral/spiral.egg-info/entry_points.txt
+writing requirements to ../../../build/spiral/spiral.egg-info/requires.txt
+writing top-level names to ../../../build/spiral/spiral.egg-info/top_level.txt
+writing manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+reading manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+writing manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/humble_ws/build/spiral/build
+creating /home/student/humble_ws/build/spiral/build/lib
+creating /home/student/humble_ws/build/spiral/build/lib/spiral
+copying spiral/spiral.py -> /home/student/humble_ws/build/spiral/build/lib/spiral
+copying spiral/__init__.py -> /home/student/humble_ws/build/spiral/build/lib/spiral
+running install
+running install_lib
+creating /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral
+copying /home/student/humble_ws/build/spiral/build/lib/spiral/spiral.py -> /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral
+copying /home/student/humble_ws/build/spiral/build/lib/spiral/__init__.py -> /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral
+byte-compiling /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral/spiral.py to spiral.cpython-310.pyc
+byte-compiling /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/student/humble_ws/install/spiral/share/ament_index
+creating /home/student/humble_ws/install/spiral/share/ament_index/resource_index
+creating /home/student/humble_ws/install/spiral/share/ament_index/resource_index/packages
+copying resource/spiral -> /home/student/humble_ws/install/spiral/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/humble_ws/install/spiral/share/spiral
+running install_egg_info
+Copying ../../../build/spiral/spiral.egg-info to /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spiral script to /home/student/humble_ws/install/spiral/lib/spiral
+writing list of installed files to '/home/student/humble_ws/build/spiral/install.log'

@@ -1,0 +1,17 @@
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/launch/bringup.launch.py
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/launch/bringup2.launch.py
+/home/student/humble_ws/install/een150_a4_bringup/share/ament_index/resource_index/package_run_dependencies/een150_a4_bringup
+/home/student/humble_ws/install/een150_a4_bringup/share/ament_index/resource_index/parent_prefix_path/een150_a4_bringup
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/ament_prefix_path.sh
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/ament_prefix_path.dsv
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/path.sh
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/environment/path.dsv
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.bash
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.sh
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.zsh
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/local_setup.dsv
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.dsv
+/home/student/humble_ws/install/een150_a4_bringup/share/ament_index/resource_index/packages/een150_a4_bringup
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/cmake/een150_a4_bringupConfig.cmake
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/cmake/een150_a4_bringupConfig-version.cmake
+/home/student/humble_ws/install/een150_a4_bringup/share/een150_a4_bringup/package.xml

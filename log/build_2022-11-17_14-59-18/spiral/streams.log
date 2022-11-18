@@ -1,0 +1,23 @@
+[1.387s] Invoking command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral': PYTHONPATH=/home/student/humble_ws/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spiral build --build-base /home/student/humble_ws/build/spiral/build install --prefix /home/student/humble_ws/install/spiral --record /home/student/humble_ws/build/spiral/install.log --single-version-externally-managed
+[1.945s] running egg_info
+[1.946s] writing ../../../build/spiral/spiral.egg-info/PKG-INFO
+[1.947s] writing dependency_links to ../../../build/spiral/spiral.egg-info/dependency_links.txt
+[1.947s] writing entry points to ../../../build/spiral/spiral.egg-info/entry_points.txt
+[1.952s] writing requirements to ../../../build/spiral/spiral.egg-info/requires.txt
+[1.952s] writing top-level names to ../../../build/spiral/spiral.egg-info/top_level.txt
+[1.955s] reading manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+[1.956s] writing manifest file '../../../build/spiral/spiral.egg-info/SOURCES.txt'
+[1.956s] running build
+[1.956s] running build_py
+[1.957s] running install
+[1.965s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.965s]   warnings.warn(
+[1.967s] running install_lib
+[1.967s] running install_data
+[1.968s] running install_egg_info
+[1.974s] removing '/home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info' (and everything under it)
+[1.978s] Copying ../../../build/spiral/spiral.egg-info to /home/student/humble_ws/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info
+[1.982s] running install_scripts
+[2.029s] Installing spiral script to /home/student/humble_ws/install/spiral/lib/spiral
+[2.029s] writing list of installed files to '/home/student/humble_ws/build/spiral/install.log'
+[2.100s] Invoked command in '/home/student/humble_ws/een150-2022-a4-group-group18/src/spiral' returned '0': PYTHONPATH=/home/student/humble_ws/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/spiral build --build-base /home/student/humble_ws/build/spiral/build install --prefix /home/student/humble_ws/install/spiral --record /home/student/humble_ws/build/spiral/install.log --single-version-externally-managed

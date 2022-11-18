@@ -1,0 +1,4 @@
+[console_scripts]
+go = runner.ctrl:run
+go2 = runner.ctrl2:run
+
